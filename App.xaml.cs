@@ -10,4 +10,3 @@ namespace IT_Tasks;
 public partial class App : Application
 {
 }
-

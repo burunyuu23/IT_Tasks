@@ -1,0 +1,21 @@
+﻿<Window x:Class="IT_Task1.shared.components.Prompt"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:local="clr-namespace:IT_Task1.shared.components"
+        mc:Ignorable="d"
+        Title="Prompt" Height="Auto" Width="250">
+        <Border Padding="10" Height="Auto">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+                <TextBlock Grid.Row="0" x:Name="Title" />
+                <TextBox Padding="10" Grid.Row="1" x:Name="ResponseTextBox" />
+                <Button Grid.Row="2" Content="OK" Click="OKButton_Click" />
+            </Grid>
+        </Border>
+</Window>

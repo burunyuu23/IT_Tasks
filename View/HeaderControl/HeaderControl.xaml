@@ -1,0 +1,11 @@
+﻿<UserControl x:Class="IT_Tasks.View.HeaderControl.HeaderControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             Width="auto" Height="auto">
+    <StackPanel Background="LightGray" Orientation="Horizontal">
+        <Button Padding="10 0" Content="Домашняя страница" Click="OpenHome_Click"/>
+        <Button Padding="10 0" Content="Первый таск" Click="OpenFirstTask_Click"/>
+        <Button Padding="10 0" Content="Второй таск" Click="OpenSecondTask_Click"/>
+        <Button Padding="10 0" Content="Третий таск" Click="OpenFirstTask_Click"/>
+    </StackPanel>
+</UserControl>
